@@ -1,19 +1,19 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - chck main code
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
 
-	n = 402
+	n = 402;
 	printf("n=%d\n", n);
-	reset_to_98("%n");
+	reset_to_98(&n);
 	printf("n=%d\n", n);
 	return (0);
 }
